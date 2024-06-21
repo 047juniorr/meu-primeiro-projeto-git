@@ -66,3 +66,34 @@ button {
     top: 26px;
     transition: 2s ease-in-out;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagens {
+        width: 100px;
+        height: 400px;
+        right: 130px;
+        margin-bottom: 80px;
+    }
+    .img-celular {
+        width: 350px;
+    }
+    .img-insta {
+        height: 400px;
+        left: 120px;
+        bottom: 150px;
+    }
+
+    .container {
+        width: 300px;
+        padding: 20px;
+        bottom: 1000px;
+        margin-top: 25px;
+    }
+}
